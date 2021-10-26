@@ -167,9 +167,11 @@ print(TS)
 # Create a an alarm that will trigger x seconds from now.
 time_alarm = alarm.time.TimeAlarm(monotonic_time=time.monotonic() +30)
 
+#Future Use even more deep sleep based on clock time for 6pm to 6am
 #if CurrentTime > 6:
 #    alarm.exit_and_deep_sleep_until_alarms(time_alarm)
 #else:
-#    magtag.exit_and_deep_sleep(99)
+#    magtag.exit_and_deep_sleep(900)
 
-magtag.exit_and_deep_sleep(290)
+#Deep sleep for 290 seconds to save the battery
+magtag.exit_and_deep_sleep(290) 
