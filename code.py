@@ -144,9 +144,6 @@ else:
 
 store_data(CurrentPrice)
 
-
-#alarm.sleep_memory[0] = PrvPrice
-
 print(voltage)
 if voltage < 1.9:
     magtag.peripherals.play_tone(165, 1)
