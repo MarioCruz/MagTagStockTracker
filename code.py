@@ -23,6 +23,7 @@ SYNCHRONIZE_CLOCK = True
 #Prepare Stock Api
 STOCK1 = "WSO"
 # Set up where we'll be fetching data from
+# Get a free API/token from here https://finnhub.io/
 DATA_SOURCE = (
     "https://finnhub.io/api/v1/quote?symbol=" + STOCK1 + "&token="
 )
@@ -171,4 +172,4 @@ time_alarm = alarm.time.TimeAlarm(monotonic_time=time.monotonic() +30)
 #else:
 #    magtag.exit_and_deep_sleep(99)
 
-magtag.exit_and_deep_sleep(70)
+magtag.exit_and_deep_sleep(290)
