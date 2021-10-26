@@ -1,6 +1,6 @@
 # MagTag Stock Tracker / Ticker 
 
-An Adafruit MagTag Stock Tracker with deep sleep. It saves battery and keeps the previous stock price saved before sleeping. Also, it includes logic for recovery from a reboot or dead battery. Also, checks the battery and warns when a battery is low from an audible tone.
+The MagTag Stock Tracker / Ticker is an Adafruit MagTag Stock Tracker with a gorgeous ePaper / eInk display. It uses WiFi onboard to get the latest stock information for display with deep sleep. It saves battery and keeps the previous stock price saved before sleeping. Also, it includes logic for recovery from a reboot or dead battery. Also, checks the battery and warns when a battery is low from an audible tone.
 
 
 <img width="640" alt="MagTag Stock" src="https://user-images.githubusercontent.com/1426877/138564465-26fa4e60-e6bd-473e-8613-862aef786c7a.JPG"> 
